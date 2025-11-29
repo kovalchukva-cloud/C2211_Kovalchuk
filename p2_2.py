@@ -49,15 +49,14 @@
                 self.is_alive()
 
 
-    student1 = Student(name="Vasya")
-    student2 = Student(name="Lisa")
+student1 = Student(name="Vasya")
+student2 = Student(name="Lisa")
 
 
-    for day in range(365):
-        if student1.alive = False:
+for day in range(365):
+    if student1.alive == False:
         student1.live(day)
-    if student2.alive = False:
+    if student2.alive == False:
         student2.live(day)
-    if student1.alive = False and student2.alive = False:
+    if student1.alive == False and student2.alive == False:
         break
-
